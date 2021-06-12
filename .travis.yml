@@ -3,7 +3,7 @@ services:
   - docker
 
 before_install:
-  - docker build -t kevinfg/docker-react -f Dockerfile.dev .
+  - docker build -t  kevin-Polytech/docker-react -f Dockerfile.dev .
 
 script:
-  - docker run kevinfg/docker-react npm run test -- --coverage
+  - docker run  kevin-Polytech/docker-react npm run test -- --coverage
